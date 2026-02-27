@@ -16,8 +16,8 @@ html {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
-    --foreground: #bba70f;
+    --background: #a02c2c;
+    --foreground: #7f7d91;
   }
 }
 
@@ -36,4 +36,23 @@ Button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@layer utilities {
+  .link-underline {
+    position: relative;
+  }
+  .link-underline::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor; /* Va lua culoarea textului automat */
+    transition: width 0.3s ease-out;
+  }
+  .link-underline:hover::after {
+    width: 100%;
+  }
 }
