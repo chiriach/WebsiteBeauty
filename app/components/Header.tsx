@@ -47,7 +47,7 @@ export default function Header() {
                 onClick={() => scrollToSection(item)}
                 className={`
                   text-sm uppercase tracking-[0.2em] font-medium transition-colors duration-300
-                  ${isScrolled ? 'text-[#002147]' : 'text-white'}
+                  ${isScrolled ? 'text-[#002147]' : 'text-black'}
                   group-hover:text-[#002147] 
                 `}
               >
