@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Border from "../components/Border";
 
 export default function DespreMinePage() {
   return (
@@ -17,6 +18,7 @@ export default function DespreMinePage() {
           </p>
         </div>
       </section>
+      <Border />
     </div>
   );
 }

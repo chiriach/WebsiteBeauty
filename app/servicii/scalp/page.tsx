@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import Border from "../../components/Border";
 
 export default function ScalpServicePage() {
   return (
@@ -13,6 +14,7 @@ export default function ScalpServicePage() {
           </p>
         </div>
       </section>
+      <Border />
     </div>
   );
 }
