@@ -87,7 +87,6 @@ export default function Border() {
               width="400"
               height="250"
               style={{ border: 0, minHeight:0 }}
-              allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
