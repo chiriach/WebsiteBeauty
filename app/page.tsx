@@ -4,7 +4,7 @@ import DespreSection from './components/sections/DespreSection';
 import ServiciiSection from './components/sections/ServiciiSection';
 import CursuriSection from './components/sections/CursuriSection';
 import RecenziiSection from './components/sections/RecenziiSection';
-import Border from './components/Border';
+import Border from './components/Footer';
 
 export default function Home() {
   return (

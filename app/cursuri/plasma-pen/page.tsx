@@ -1,5 +1,5 @@
 import Header from "../../components/Header";
-import Border from "../../components/Border";
+import Border from "../../components/Footer";
 
 export default function PlasmaPenPage() {
   return (

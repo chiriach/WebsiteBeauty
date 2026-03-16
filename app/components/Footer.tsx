@@ -43,7 +43,7 @@ export default function Border() {
                 aria-label="Follow us on Facebook"
               >
                 <Image
-                  src="/facebook.png"
+                  src="/pagani.png"
                   alt="Facebook"
                   width={40}
                   height={40}

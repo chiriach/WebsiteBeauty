@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Image from "next/image";
-import Border from "../../components/Border";
+import Border from "../../components/Footer";
 
 export default function HyaluronPenPage() {
   return (
