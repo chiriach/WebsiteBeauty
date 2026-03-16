@@ -45,8 +45,8 @@ export default function Border() {
                 <Image
                   src="/pagani.png"
                   alt="Facebook"
-                  width={40}
-                  height={40}
+                  width={60}
+                  height={60}
                   className="object-contain"
                 />
               </a>
