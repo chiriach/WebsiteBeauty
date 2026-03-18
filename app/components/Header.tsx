@@ -184,7 +184,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/Consult_scalp_cu_tricocamera" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                <Link href="/servicii/consult_scalp" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
                   Consult cu tricocamera
                 </Link>
               </li>
@@ -292,15 +292,16 @@ export default function Header() {
               >
                 {[
                   { href: '/servicii/hyaluronpen', label: 'Hyaluron Pen' },
-                  { href: '/servicii/scalp', label: 'Scalp Therapy' },
-                  { href: '/servicii/tratamente', label: 'Tratamente Beauty' },
+                  { href: '/servicii/consult_scalp', label: 'Consult cu tricocamera' },
+                  { href: '/servicii/tratamente_scalp', label: 'Tratamente Scalp' },
                   { href: '/servicii/plasma-pen', label: 'Plasma Pen' },
                   { href: '/servicii/Microneedling', label: 'Microneedling' },
                   { href: '/servicii/Micropigmentare', label: 'Micropigmentare' },
-                  { href: '/servicii/Tratamente-faciale', label: 'Tratamente Faciale' },
+                  { href: '/servicii/Tratamente_faciale', label: 'Tratamente Faciale' },
                   { href: '/servicii/Lipoliza_non_injectabila', label: 'Lipoliză Non-injectabilă' },
-                  { href: '/servicii/Mezoterapie virtuală', label: 'Mezoterapie Virtuală' },
-                  { href: '/servicii/indepartare chimica', label: 'Îndepărtare Chimică' },
+                  { href: '/servicii/Mezoterapie_virtuala', label: 'Mezoterapie Virtuală' },
+                  { href: '/servicii/indepartare_chimica', label: 'Îndepărtare Chimică' },
+                  { href: '/servicii/tricopigmentare', label: 'Tricopigmentare' },
                 ].map(({ href, label }) => (
                   <li key={href}>
                     <Link
