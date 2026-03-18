@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import Link from "next/link";
 
 export default function MicropigmentarePage() {
   return (
@@ -19,15 +20,31 @@ export default function MicropigmentarePage() {
             <ul className="space-y-3 text-gray-600">
               <li className="flex items-center gap-3">
                 <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                micropigmentare sprâncene
+                <Link
+                  href="/servicii/Micropigmentare/sprancene"
+                  className="text-[#002147] underline-offset-4 hover:underline"
+                >
+                  micropigmentare Sprancene  (vezi detaliile)
+                </Link>
+              </li>
+
+              <li className="flex items-center gap-3">
+                <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                <Link
+                  href="/servicii/Micropigmentare/Buze"
+                  className="text-[#002147] underline-offset-4 hover:underline"
+                >
+                  micropigmentare buze  (vezi detaliile)
+                </Link>
               </li>
               <li className="flex items-center gap-3">
                 <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                micropigmentare buze
-              </li>
-              <li className="flex items-center gap-3">
-                <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                look natural de lungă durată
+                <Link
+                  href="/servicii/Micropigmentare/Eyeliner"
+                  className="text-[#002147] underline-offset-4 hover:underline"
+                >
+                  micropigmentare Eyeliner  (vezi detaliile)
+                </Link>
               </li>
             </ul>
           </div>

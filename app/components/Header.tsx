@@ -184,13 +184,13 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/scalp" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Scalp Therapy
+                <Link href="/servicii/Consult_scalp_cu_tricocamera" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  Consult cu tricocamera
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/tratamente" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Tratamente Beauty
+                <Link href="/servicii/tratamente_scalp" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  Tratamente Scalp
                 </Link>
               </li>
               <li>
@@ -209,23 +209,28 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/Tratamente-faciale" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                <Link href="/servicii/Tratamente_faciale" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
                   Tratamente Faciale
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/Lipoliza non-injectabila" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                <Link href="/servicii/Lipoliza_non_injectabila" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
                   Lipoliză Non-injectabilă
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/Mezoterapie virtuală" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                <Link href="/servicii/Mezoterapie_virtuala" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
                   Mezoterapie Virtuală
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/indepartare chimica" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                <Link href="/servicii/indepartare_chimica" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
                   Îndepărtare Chimică
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicii/tricopigmentare" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  tricopigmentare
                 </Link>
               </li>
             </ul>
@@ -293,7 +298,7 @@ export default function Header() {
                   { href: '/servicii/Microneedling', label: 'Microneedling' },
                   { href: '/servicii/Micropigmentare', label: 'Micropigmentare' },
                   { href: '/servicii/Tratamente-faciale', label: 'Tratamente Faciale' },
-                  { href: '/servicii/Lipoliza non-injectabila', label: 'Lipoliză Non-injectabilă' },
+                  { href: '/servicii/Lipoliza_non_injectabila', label: 'Lipoliză Non-injectabilă' },
                   { href: '/servicii/Mezoterapie virtuală', label: 'Mezoterapie Virtuală' },
                   { href: '/servicii/indepartare chimica', label: 'Îndepărtare Chimică' },
                 ].map(({ href, label }) => (

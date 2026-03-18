@@ -39,7 +39,7 @@ export default function DespreSection() {
           <div className="relative w-full md:w-1/2 flex justify-center">
             <div className="absolute -top-4 -left-4 w-72 h-96 border-2 border-[#b87333]/20 rounded-2xl hidden md:block"></div>
             <img
-              src="/despre-mine.jpg"
+              src="/poza_profil2.jpeg"
               alt="Alexandra Mărcuț"
               className="relative z-10 h-[500px] w-full max-w-sm rounded-2xl object-cover shadow-2xl"
             />

@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import Image from "next/image";
 import Border from "../../components/Footer";
 
-export default function Microneedling() {
+export default function Lipoliza_non_injectabila() {
   return (
     <div className="bg-white">
       <Header />
@@ -12,31 +12,35 @@ export default function Microneedling() {
             {/* Left Side - Text Content */}
             <div className="flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl font-serif text-[#002147]">
-                Microneedling
+                Lipoza non-injectabila
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Ce este Lipoza non-injectabila?
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Microneedling este o terapie estetică de regenerare cutanată care utilizează micro-ace foarte fine pentru a crea microcanale controlate în piele. Aceste microcanale declanșează un răspuns natural de vindecare, stimulând producția de colagen și elastină. Procedura îmbunătățește structura pielii din interior și permite absorbția profundă a substanțelor active aplicate în timpul tratamentului. În funcție de protocol, microneedlingul poate fi combinat cu cocktailuri personalizate sau exozomi, pentru susținerea regenerării, uniformizarea pielii și recuperarea post-procedurală. Rezultatele sunt progresive, naturale și de durată.
-Se utilizează pentru:
+                Lipoliza non-injectabilă este o procedură estetică de remodelare corporală, 
+                realizată fără ace, care vizează reducerea depozitelor de grăsime localizată.
+                Substanțele cu efect lipolitic sunt administrate cu ajutorul Hyaluron Pen, acționând controlat asupra țesutului adipos. 
+                Procedura sprijină procesul de reducere a grăsimii în zonele problematice și contribuie la îmbunătățirea conturului corporal.
+                Nu este o metodă de slăbire generală, ci o soluție complementară pentru remodelare și definire, atunci când este integrată într-un stil de viață echilibrat.
+                Se utilizeaza pentru:
               </p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  cicatrici post-acnee
+                  bărbie dublă
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  pori dilatați
+                  abdomen
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  riduri fine
+                  coapse
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  textură neuniformă
+                  brațe
                 </li>
               </ul>
             </div>
@@ -45,8 +49,8 @@ Se utilizează pentru:
             <div className="flex flex-col gap-6 justify-center">
               <div className="flex justify-center">
                 <Image
-                  src="/microneedling.jpeg"
-                  alt="microneedling.jpeg"
+                  src="/lipoza.png"
+                  alt="lipoza.png"
                   width={400}
                   height={400}
                   className="rounded-2xl shadow-lg object-contain"

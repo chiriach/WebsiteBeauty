@@ -27,7 +27,7 @@ export default function ServiciiSection() {
   const services = [
     {
       title: 'Microneedling',
-      href: '/servicii/scalp',
+      href: '/servicii/Microneedling',
       description: (
         <ul className="space-y-2 text-sm text-gray-600">
           <li className="flex items-center gap-2">
@@ -48,7 +48,7 @@ export default function ServiciiSection() {
     },
     {
       title: 'Micropigmentare',
-      href: '/servicii/tratamente',
+      href: '/servicii/Micropigmentare',
       description: (
         <ul className="space-y-2 text-sm text-gray-600">
           <li className="flex items-center gap-2">

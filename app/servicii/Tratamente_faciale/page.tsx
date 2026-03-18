@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import Image from "next/image";
 import Border from "../../components/Footer";
 
-export default function Microneedling() {
+export default function Tratamente_faciale() {
   return (
     <div className="bg-white">
       <Header />
@@ -12,31 +12,31 @@ export default function Microneedling() {
             {/* Left Side - Text Content */}
             <div className="flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl font-serif text-[#002147]">
-                Microneedling
+                Tratamente faciale
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Ce este Lipoza non-injectabila?
+                Ce sunt tratamentele faciale cosmetice?
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Microneedling este o terapie estetică de regenerare cutanată care utilizează micro-ace foarte fine pentru a crea microcanale controlate în piele. Aceste microcanale declanșează un răspuns natural de vindecare, stimulând producția de colagen și elastină. Procedura îmbunătățește structura pielii din interior și permite absorbția profundă a substanțelor active aplicate în timpul tratamentului. În funcție de protocol, microneedlingul poate fi combinat cu cocktailuri personalizate sau exozomi, pentru susținerea regenerării, uniformizarea pielii și recuperarea post-procedurală. Rezultatele sunt progresive, naturale și de durată.
+                Tratamentele faciale cosmetice sunt proceduri profesionale personalizate, realizate pentru menținerea sănătății pielii și îmbunătățirea aspectului acesteia. Acestea combină curățarea corectă, aplicarea substanțelor active și tehnici specifice fiecărui tip de ten. Tratamentele contribuie la refacerea barierei cutanate, la echilibrarea sebumului și la calmarea pielii, oferind un aspect mai curat, mai luminos și mai uniform. Alegerea tratamentului se face în urma evaluării pielii, pentru rezultate sigure și eficiente.
 Se utilizează pentru:
               </p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  cicatrici post-acnee
+                  curățare profundă
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  pori dilatați
+                  acnee
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  riduri fine
+                  hidratare
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  textură neuniformă
+                  anti-aging
                 </li>
               </ul>
             </div>
@@ -45,8 +45,9 @@ Se utilizează pentru:
             <div className="flex flex-col gap-6 justify-center">
               <div className="flex justify-center">
                 <Image
-                  src="/microneedling.jpeg"
-                  alt="microneedling.jpeg"
+                  src="/tratamente_faciale.png"
+                  alt="tratamente_faciale.png
+"
                   width={400}
                   height={400}
                   className="rounded-2xl shadow-lg object-contain"
