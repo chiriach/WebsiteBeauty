@@ -21,7 +21,11 @@ export default function indepartare_chimica() {
                 Îndepărtarea chimică soft este o procedură utilizată pentru estomparea sau eliminarea lucrărilor de dermopigmentare realizate anterior, atunci când forma, culoarea sau rezultatul final nu mai corespund dorințelor clientei. Procedura presupune utilizarea unei soluții speciale care ajută la extragerea controlată a pigmentului din stratul superficial al pielii.
 Această metodă este mai delicată comparativ cu tehnicile agresive și este aleasă în special pentru corecții graduale, estomparea culorilor nedorite sau pregătirea zonei pentru o nouă procedură. Tratamentul este realizat controlat, cu evaluare prealabilă, pentru a proteja integritatea pielii și pentru a obține un rezultat sigur.
               </p>
-              
+              <div className="mt-10 p-6 bg-white rounded-lg ">
+                <p className="text-lg text-[#002147] font-medium">
+                   <a href="https://wa.me/0769057471" className="text-[#b87333] hover:text-[#d4a574] transition-colors">Contacteaza-ma pe Whatsapp</a>
+                </p>
+              </div>
             </div>
 
             {/* Right Side - Images */}

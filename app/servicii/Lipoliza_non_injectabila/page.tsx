@@ -43,6 +43,11 @@ export default function Lipoliza_non_injectabila() {
                   brațe
                 </li>
               </ul>
+              <div className="mt-10 p-6 bg-white rounded-lg ">
+                <p className="text-lg text-[#002147] font-medium">
+                   <a href="https://wa.me/0769057471" className="text-[#b87333] hover:text-[#d4a574] transition-colors">Contacteaza-ma pe Whatsapp</a>
+                </p>
+              </div>
             </div>
 
             {/* Right Side - Images */}

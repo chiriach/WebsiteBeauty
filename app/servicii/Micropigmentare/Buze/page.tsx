@@ -21,6 +21,11 @@ export default function Buze() {
                 Micropigmentarea buzelor este o procedură estetică semi-permanentă care presupune introducerea controlată a pigmentului în stratul superficial al pielii, cu scopul de a uniformiza culoarea, de a redefini conturul și de a îmbunătăți aspectul general al buzelor. Procedura este personalizată în funcție de forma naturală a buzelor, de pigmentația existentă și de efectul dorit, pentru a obține un rezultat armonios și natural.
 Micropigmentarea nu modifică structura buzelor, ci corectează optic asimetriile, estompează diferențele de culoare și oferă un aspect mai proaspăt și mai bine definit. Înainte de procedură, se realizează etapa de design și alegerea nuanței potrivite, astfel încât rezultatul final să fie adaptat fizionomiei și preferințelor personale.
               </p>
+              <div className="mt-10 p-6 bg-white rounded-lg ">
+                <p className="text-lg text-[#002147] font-medium">
+                   <a href="https://wa.me/0769057471" className="text-[#b87333] hover:text-[#d4a574] transition-colors">Contacteaza-ma pe Whatsapp</a>
+                </p>
+              </div>
             </div>
 
             {/* Right Side - Images */}

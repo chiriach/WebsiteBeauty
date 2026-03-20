@@ -125,7 +125,7 @@ export default function Header() {
         
         {/* NAVIGARE */}
         <ul className="hidden md:flex gap-8 items-center">
-          {['despreMine', 'cursuri', 'contact'].map((item) => (
+          {['despreMine'].map((item) => (
             <li key={item} className="relative group">
               <button
                 type="button"
@@ -230,11 +230,27 @@ export default function Header() {
               </li>
               <li>
                 <Link href="/servicii/tricopigmentare" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  tricopigmentare
+                  Tricopigmentare
                 </Link>
               </li>
             </ul>
           </li>
+
+          {['cursuri', 'contact'].map((item) => (
+            <li key={item} className="relative group">
+              <button
+                type="button"
+                onClick={() => scrollToSection(item)}
+                className={`${navTextClass} group-hover:text-[#b87333]`}
+              >
+                {item === 'cursuri' ? 'Cursuri' : 'contact'}
+              </button>
+
+              <span className={`absolute -bottom-1 left-0 w-0 h-[1px] transition-all duration-300 group-hover:w-full ${
+                isSubpage ? 'bg-[#b87333]' : 'bg-black'
+              }`}></span>
+            </li>
+          ))}
         </ul>
       </nav>
 
@@ -247,32 +263,6 @@ export default function Header() {
       >
         <div className="mx-4 mb-4 rounded-lg bg-white/95 p-4 shadow-lg ring-1 ring-black/10 backdrop-blur-sm">
           <ul className="flex flex-col gap-1">
-            <li>
-              <button
-                type="button"
-                onClick={() => {
-                  setIsMobileMenuOpen(false);
-                  setIsMobileServicesOpen(false);
-                  scrollToSection('despreMine');
-                }}
-                className="w-full rounded-md px-3 py-2 text-left text-sm uppercase tracking-[0.2em] text-[#002147] hover:bg-[#f4eee8]"
-              >
-                Despre Mine
-              </button>
-            </li>
-            <li>
-              <button
-                type="button"
-                onClick={() => {
-                  setIsMobileMenuOpen(false);
-                  setIsMobileServicesOpen(false);
-                  scrollToSection('cursuri');
-                }}
-                className="w-full rounded-md px-3 py-2 text-left text-sm uppercase tracking-[0.2em] text-[#002147] hover:bg-[#f4eee8]"
-              >
-                Cursuri
-              </button>
-            </li>
             <li>
               <button
                 type="button"
@@ -317,6 +307,32 @@ export default function Header() {
                   </li>
                 ))}
               </ul>
+            </li>
+            <li>
+              <button
+                type="button"
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  setIsMobileServicesOpen(false);
+                  scrollToSection('despreMine');
+                }}
+                className="w-full rounded-md px-3 py-2 text-left text-sm uppercase tracking-[0.2em] text-[#002147] hover:bg-[#f4eee8]"
+              >
+                Despre Mine
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  setIsMobileServicesOpen(false);
+                  scrollToSection('cursuri');
+                }}
+                className="w-full rounded-md px-3 py-2 text-left text-sm uppercase tracking-[0.2em] text-[#002147] hover:bg-[#f4eee8]"
+              >
+                Cursuri
+              </button>
             </li>
             <li>
               <button
