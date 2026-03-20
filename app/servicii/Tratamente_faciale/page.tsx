@@ -50,16 +50,6 @@ Se utilizează pentru:
             <div className="flex flex-col gap-6 justify-center">
               <div className="flex justify-center">
                 <Image
-                  src="/tratamente_faciale2.jpg"
-                  alt="tratamente_faciale.png
-"
-                  width={400}
-                  height={400}
-                  className="rounded-2xl shadow-lg object-contain"
-                />
-              </div>
-              <div className="flex justify-center">
-                <Image
                   src="/tratamente_faciale3.jpg"
                   alt="tratamente_faciale.png
 "
