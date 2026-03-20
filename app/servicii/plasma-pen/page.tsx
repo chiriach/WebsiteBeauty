@@ -60,7 +60,7 @@ export default function PlasmaPenPage() {
                       <div className="flex flex-col gap-6 justify-center">
                         <div className="flex justify-center">
                           <Image
-                            src="/plasma_pen1.jpg"
+                            src="/plasma_pen3.PNG"
                             alt="Plasma Pen Treatment 1"
                             width={280}
                             height={280}

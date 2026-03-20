@@ -56,17 +56,8 @@ export default function MicropigmentarePage() {
             <div className="flex flex-col gap-6 justify-center">
               <div className="flex justify-center">
                 <Image
-                  src="/micro1.jpg"
+                  src="/micro3.jpg"
                   alt="micro1"
-                  width={400}
-                  height={400}
-                  className="rounded-2xl shadow-lg object-contain"
-                />
-              </div>
-              <div className="flex justify-center">
-                <Image
-                  src="/micro2.jpg"
-                  alt="micro2"
                   width={400}
                   height={400}
                   className="rounded-2xl shadow-lg object-contain"

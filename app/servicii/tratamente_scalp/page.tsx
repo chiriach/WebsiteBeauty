@@ -15,7 +15,7 @@ export default function tratamente_scalp() {
                 Tratamente pentru scalp
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Tratamentele pentru scalp sunt realizate în funcție de rezultatele obținute în urma analizei cu tricocameră, având ca scop restabilirea echilibrului scalpului și stimularea sănătății foliculilor de păr.
+                Tratamentele pentru scalp sunt realizate în funcție de informațiile obținute în urma analizei cu tricocameră, având ca scop restabilirea echilibrului scalpului și stimularea sănătății foliculilor de păr.
                 În funcție de necesități, se folosesc terapii avansate precum mezoterapia scalpului și aplicarea/ introducerea substanțelor active cu rol regenerativ și nutritiv.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
