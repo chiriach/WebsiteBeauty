@@ -58,7 +58,7 @@ export default function ContactSection() {
             Sunați-ne la tel: <a href="tel:+40769057471" className="hover:text-[#b87333] transition-colors">
                   +40 769 057 471 
                 </a>
-              <a> </a>sau pur și simplu creati o rezervare
+              <a> </a>sau creați o rezervare
           </p>
         </div>
           
@@ -66,7 +66,7 @@ export default function ContactSection() {
 
 
         {/* Programeaza-te Button */}
-        <div className="flex justify-center mt-0">
+        <div className="flex justify-center mt-10">
           <a
             href="https://stailer.ro/widget/mast-beauty/rnoazqdq"
             target="_blank"

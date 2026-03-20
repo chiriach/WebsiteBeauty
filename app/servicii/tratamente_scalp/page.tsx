@@ -15,14 +15,39 @@ export default function tratamente_scalp() {
                 Tratamente pentru scalp
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Ce sunt tratamentele pentru scalp?
+                Tratamentele pentru scalp sunt realizate în funcție de rezultatele obținute în urma analizei cu tricocameră, având ca scop restabilirea echilibrului scalpului și stimularea sănătății foliculilor de păr.
+                În funcție de necesități, se folosesc terapii avansate precum mezoterapia scalpului și aplicarea/ introducerea substanțelor active cu rol regenerativ și nutritiv.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Tratamentele pentru scalp sunt realizate în funcție de rezultatele obținute în urma consultului cu tricocamera și au rolul de a restabili echilibrul scalpului și de a susține sănătatea foliculilor de păr. În cadrul procedurilor, se utilizează cocktailuri special formulate pentru afecțiunea prezentă.
-Substanțele active sunt introduse la nivelul scalpului prin tehnici adaptate, în funcție de necesitate, pentru a asigura o absorbție eficientă și un efect direcționat asupra foliculilor. În anumite protocoale, tratamentele pot include exozomi, recunoscuți pentru rolul lor în susținerea regenerării și stimularea comunicării celulare, contribuind la revitalizarea scalpului și la îmbunătățirea mediului folicular. Procedura nu este dureroasă!
-Scopul tratamentelor nu este doar reducerea simptomelor, ci susținerea unui proces de regenerare reală și crearea unui mediu optim pentru creșterea
-sănătoasă a părului.
-Se utilizează pentru:
+              Acestea pot include:  
+              </p>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                  complexe de vitamine și minerale esențiale
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                  acid hialuronic pentru hidratare profundă
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                  aminoacizi și factori de creștere
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                  exozomi (în protocoale avansate)
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                  ingrediente active pentru reglarea sebumului și calmarea inflamației
+                </li>
+              </ul>
+              <p className="text-lg text-gray-600 leading-relaxed">
+              Substanțele sunt introduse la nivelul scalpului prin tehnici adaptate, pentru o absorbție eficientă și un efect direct asupra foliculului. 
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+              Se recomandă în caz de:              
               </p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center gap-3">
@@ -31,17 +56,25 @@ Se utilizează pentru:
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  subțierea firului
+                  subțierea firului de păr
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  alopecie 
+                  alopecie
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  scalp seboreic
+                  scalp seboreic sau dezechilibrat
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                  alte afecțiuni
                 </li>
               </ul>
+              <p className="text-lg text-gray-600 leading-relaxed">
+              Fără un tratament adaptat cauzei reale, rezultatele sunt temporare sau inexistente.
+              Printr-un protocol corect ales, putem susține regenerarea, îmbunătăți calitatea firului de păr și crea un mediu sănătos pentru creștere. 
+              </p>
             </div>
 
             {/* Right Side - Images */}
@@ -50,6 +83,15 @@ Se utilizează pentru:
                 <Image
                   src="/tratament_scalp.png"
                   alt="tratament_scalp.png"
+                  width={400}
+                  height={400}
+                  className="rounded-2xl shadow-lg object-contain"
+                />
+              </div>
+              <div className="flex justify-center">
+                <Image
+                  src="/Tratamente_scalp2.png"
+                  alt="Tratament_scalp2.png"
                   width={400}
                   height={400}
                   className="rounded-2xl shadow-lg object-contain"

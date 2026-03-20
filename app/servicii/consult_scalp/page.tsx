@@ -18,27 +18,40 @@ export default function consult_scalp_cu_tricocamera() {
                 Ce este Consultul cu tricocamera?
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Consultul tricologic începe cu analiza scalpului prin intermediul tricocamerei, un dispozitiv care permite vizualizarea detaliată a pielii capului și a foliculilor de păr la nivel mărit.
-Această etapă este esențială pentru:
+                Consultul trichologic începe cu o analiză detaliată a scalpului, realizată cu ajutorul tricocamerei — un dispozitiv profesional care permite vizualizarea în profunzime a pielii capului și a foliculilor de păr.
+                Această evaluare este esențială pentru a înțelege cauza reală a problemelor și pentru a stabili un plan de tratament personalizat.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Ce putem observa?
               </p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  evaluarea densității firelor de păr
+                  densitatea și grosimea firului de păr
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  identificarea zonelor cu subțiere
+                  zonele cu subțiere sau început de cădere
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  observarea inflamației sau a excesului de sebum
+                  excesul de sebum sau scalpul uscat
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  analiza stării foliculilor
+                  inflamații sau foliculi blocați
                 </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                  nivelul de sănătate al scalpului
+                </li>
+              
               </ul>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Fără o analiză corectă, orice tratament este doar o presupunere.
+
+                Prin această etapă, putem interveni țintit și eficient, evitând proceduri inutile sau rezultate slabe.
+              </p>
               <div className="mt-10 p-6 bg-white rounded-lg ">
                 <p className="text-lg text-[#002147] font-medium">
                    <a href="https://wa.me/0769057471" className="text-[#b87333] hover:text-[#d4a574] transition-colors">Contacteaza-ma pe Whatsapp</a>

@@ -25,15 +25,27 @@ export default function Mezoterapie_virtuala() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  hidratare intensă
+                  efect de glow imediat (ten luminos și revitalizat)
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  revitalizare cutanată
+                  hidratare intensă fără injectare
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-                  îmbunătățirea texturii pielii
+                  netezirea liniilor fine și îmbunătățirea texturii
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                  stimularea proceselor naturale de regenerare
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                  creșterea elasticității și tonusului pielii
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
+                  revitalizare profundă fără disconfort
                 </li>
               </ul>
             </div>

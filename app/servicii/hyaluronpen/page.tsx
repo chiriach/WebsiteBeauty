@@ -58,7 +58,7 @@ export default function HyaluronPenPage() {
               </div>
               <div className="flex justify-center">
                 <Image
-                  src="/h2.png"
+                  src="/hialuron2.png"
                   alt="Hyaluron Pen Treatment 2"
                   width={280}
                   height={280}

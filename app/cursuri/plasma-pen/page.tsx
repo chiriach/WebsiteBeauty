@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import Image from "next/image";
 import Border from "../../components/Footer";
 
 export default function PlasmaPenPage() {
@@ -6,8 +7,9 @@ export default function PlasmaPenPage() {
     <div className="bg-white">
       <Header />
       <section className="min-h-screen bg-white pt-32 pb-20">
-        <div className="mx-auto max-w-4xl px-6">
-          <div className="flex flex-col gap-8">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div className="flex flex-col gap-8">
             <h1 className="text-4xl md:text-5xl font-serif text-[#002147]">
               Curs Plasma Pen
             </h1>
@@ -107,6 +109,29 @@ export default function PlasmaPenPage() {
                 <p className="text-lg text-[#002147] font-medium">
                    <a href="https://wa.me/0769057471" className="text-[#b87333] hover:text-[#d4a574] transition-colors">Contacteaza-ma pe Whatsapp</a>
                 </p>
+              </div>
+            </div>
+            </div>
+
+            {/* Right Side - Images */}
+            <div className="flex flex-col gap-6 justify-center">
+              <div className="flex justify-center">
+                <Image
+                  src="/thumbnail.jpeg"
+                  alt="curs_plasma_pen1"
+                  width={400}
+                  height={400}
+                  className="rounded-2xl shadow-lg object-contain"
+                />
+              </div>
+              <div className="flex justify-center">
+                <Image
+                  src="/curs_plasma_pen2.jpeg"
+                  alt="curs_plasma_pen2"
+                  width={400}
+                  height={400}
+                  className="rounded-2xl shadow-lg object-contain"
+                />
               </div>
             </div>
           </div>

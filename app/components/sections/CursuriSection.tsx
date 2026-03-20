@@ -57,7 +57,7 @@ export default function CursuriSection() {
           {/* Right Side - Image */}
           <div className="flex justify-center">
             <Image
-              src="/thumbnail.jpeg"
+              src="/the_plasma_pen.jpeg"
               alt="Cursuri"
               width={400}
               height={250}
