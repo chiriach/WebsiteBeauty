@@ -47,7 +47,7 @@ export default function DespreSection() {
 
           <div className="w-full md:w-1/2 text-left">
             <p className="text-xl leading-relaxed text-slate-700 font-light">
-              Sunt <span className="font-semibold text-[#002147]">Alexandra Mărcuț</span>, specialist în Dermopigmentare, Cosmetică, Estetică, Tricologie și Tricopigmentare, precum și creator al <span className="font-semibold text-[#b87333]">MAST Method</span> – metoda proprie de lucru, bazată pe siguranță, rigoare și protocoale testate.
+              Sunt <span className="font-semibold text-[#002147]">Alexandra Mărcuț</span>, specialist în Estetica, Tricologie, Tricopigmentare și Dermopigmentare, precum și creator al conceptului educațional <span className="font-semibold text-[#b87333]">MAST Method</span> – metoda proprie de lucru, bazată pe siguranță, rigoare și protocoale testate.
               După 9 ani de experiență în mediul corporate, am adus rigoarea și gândirea structurată în lumea esteticii. Pasiunea mea pentru sănătatea pielii și a scalpului m-a ghidat spre specializări complexe, obținând recunoaștere în domeniu (Locul III la Campionatul Beauty 2024) și devenind speaker și trainer.
             </p>
             

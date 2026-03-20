@@ -1,4 +1,6 @@
+import Border from "@/app/components/Footer";
 import Header from "../../components/Header";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function MicropigmentarePage() {
@@ -7,7 +9,8 @@ export default function MicropigmentarePage() {
       <Header />
       <section className="min-h-screen bg-white pt-32 pb-20">
         <div className="mx-auto max-w-6xl px-6">
-          <div className="flex flex-col gap-6 max-w-2xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div className="flex flex-col gap-6">
             <h1 className="text-4xl md:text-5xl font-serif text-[#002147]">
               Micropigmentare
             </h1>
@@ -47,9 +50,33 @@ export default function MicropigmentarePage() {
                 </Link>
               </li>
             </ul>
+            </div>
+
+            {/* Right Side - Images */}
+            <div className="flex flex-col gap-6 justify-center">
+              <div className="flex justify-center">
+                <Image
+                  src="/micro1.jpg"
+                  alt="micro1"
+                  width={400}
+                  height={400}
+                  className="rounded-2xl shadow-lg object-contain"
+                />
+              </div>
+              <div className="flex justify-center">
+                <Image
+                  src="/micro2.jpg"
+                  alt="micro2"
+                  width={400}
+                  height={400}
+                  className="rounded-2xl shadow-lg object-contain"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
+      <Border />
     </div>
   );
 }
