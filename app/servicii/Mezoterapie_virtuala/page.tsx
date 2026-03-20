@@ -48,14 +48,29 @@ export default function Mezoterapie_virtuala() {
                   revitalizare profundă fără disconfort
                 </li>
               </ul>
-            </div>
-          </div>
-          <div className="mt-10 p-6 bg-white rounded-lg ">
+              <div className="mt-10 p-6 bg-white rounded-lg ">
                 <p className="text-lg text-[#002147] font-medium">
                    <a href="https://wa.me/0769057471" className="text-[#b87333] hover:text-[#d4a574] transition-colors">Contacteaza-ma pe Whatsapp</a>
                 </p>
               </div>
+            </div>
+
+            {/* Right Side - Images */}
+            <div className="flex flex-col gap-6 justify-center">
+              <div className="flex justify-center">
+                <Image
+                  src="/mezoterapie_virtuala.jpeg"
+                  alt="mezoterapie_virtuala.jpeg"
+                  width={400}
+                  height={400}
+                  className="rounded-2xl shadow-lg object-contain"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+        
+        
       </section>
       <Border />
     </div>

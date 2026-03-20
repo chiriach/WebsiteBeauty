@@ -21,7 +21,7 @@ export default function Border() {
             {/* Social Media Logos */}
             <div className="flex gap-6 items-center">
               <a
-                href="https://www.instagram.com/mastbeauty_/"
+                href="https://www.instagram.com/alexandramarcutb?igsh=MTRnaHRic2hybm53dA=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-300 hover:scale-110"
@@ -36,7 +36,7 @@ export default function Border() {
                 />
               </a>
               <a
-                href="https://www.facebook.com/people/MAST-Beauty-Salon/61556804072722/"
+                href="https://www.facebook.com/61556791592214/?http_ref=eyJ0cyI6MTc3NDAxODk1NjAwMCwiciI6IiJ9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform duration-300 hover:scale-110"

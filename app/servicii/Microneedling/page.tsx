@@ -15,7 +15,7 @@ export default function Microneedling() {
                 Microneedling
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Ce este Lipoza non-injectabila?
+                Ce este Microneedling-ul?
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Microneedling este o terapie estetică de regenerare cutanată care utilizează micro-ace foarte fine pentru a crea microcanale controlate în piele. Aceste microcanale declanșează un răspuns natural de vindecare, stimulând producția de colagen și elastină. Procedura îmbunătățește structura pielii din interior și permite absorbția profundă a substanțelor active aplicate în timpul tratamentului. În funcție de protocol, microneedlingul poate fi combinat cu cocktailuri personalizate sau exozomi, pentru susținerea regenerării, uniformizarea pielii și recuperarea post-procedurală. Rezultatele sunt progresive, naturale și de durată.

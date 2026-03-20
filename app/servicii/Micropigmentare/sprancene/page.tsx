@@ -43,7 +43,7 @@ export default function sprancene() {
               </div>
               <div className="flex justify-center">
                 <Image
-                  src="/micropigmentare_sprancene2.png"
+                  src="/micropigmentare_sprancene12.png"
                   alt="micropigmentare_sprancene2.png"
                   width={400}
                   height={400}
