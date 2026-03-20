@@ -32,15 +32,15 @@ export default function ServiciiSection() {
         <ul className="space-y-2 text-sm text-gray-600">
           <li className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-            Consultanță dedicată 
+            Cicatrici post-acnee
           </li>
           <li className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-            Umplere buze și contur facial natural
+            Riduri fine
           </li>
           <li className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-            Fără ace, fără durere, rezultate imediate
+            Textură neuniformă
           </li>
         </ul>
       ),
@@ -53,15 +53,15 @@ export default function ServiciiSection() {
         <ul className="space-y-2 text-sm text-gray-600">
           <li className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-            Consultanță dedicată 
+            Micropigmentare buze
           </li>
           <li className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-            Umplere buze și contur facial natural
+            Micropigmentare sprâncene
           </li>
           <li className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-[#b87333] flex-shrink-0"></span>
-            Fără ace, fără durere, rezultate imediate
+            Micropigmentare eyeliner
           </li>
         </ul>
       ),
