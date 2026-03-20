@@ -69,7 +69,7 @@ export default function PlasmaPenPage() {
                         </div>
                         <div className="flex justify-center">
                           <Image
-                            src="/plasma_pen2.png"
+                            src="/plasma_pen2.PNG"
                             alt="Plasma Pen Treatment 2"
                             width={280}
                             height={280}
