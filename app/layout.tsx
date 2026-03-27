@@ -14,6 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://alexandramarcut.ro"),
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   title: {
     default: "Alexandra Marcut | Beauty, Scalp si Micropigmentare",
     template: "%s | Alexandra Marcut",
