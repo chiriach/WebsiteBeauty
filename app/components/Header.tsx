@@ -172,31 +172,33 @@ export default function Header() {
             }`}></span>
 
             <ul
-              className={`absolute left-1/2 top-full z-50 mt-0 w-64 -translate-x-1/2 rounded-md bg-white py-2 shadow-lg ring-1 ring-black/10 transition-all duration-200 ${
+              className={`absolute left-1/2 top-full z-50 mt-0 w-80 -translate-x-1/2 rounded-md bg-white py-2 shadow-lg ring-1 ring-black/10 transition-all duration-200 ${
                 isServicesOpen
                   ? 'opacity-100 visible translate-y-0 pointer-events-auto'
                   : 'opacity-0 invisible translate-y-2 pointer-events-none'
               }`}
             >
-              <li>
-                <Link href="/servicii/hyaluronpen" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Hyaluron Pen
-                </Link>
+              <li className="px-4 pt-2 pb-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#b87333]">
+                Scalp & Tricologie
               </li>
               <li>
                 <Link href="/servicii/consult_scalp" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Consult cu tricocamera
+                  Consult cu Tricocamera
                 </Link>
               </li>
               <li>
                 <Link href="/servicii/tratamente_scalp" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Tratamente Scalp
+                  Tratamente pt Scalp
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/plasma-pen" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Plasma Pen
+                <Link href="/servicii/tricopigmentare" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  Tricopigmentare
                 </Link>
+              </li>
+
+              <li className="mt-1 px-4 pt-2 pb-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#b87333]">
+                Estetica
               </li>
               <li>
                 <Link href="/servicii/Microneedling" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
@@ -204,33 +206,52 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/Micropigmentare" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Micropigmentare
+                <Link href="/servicii/Mezoterapie_virtuala" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  Mezoterapie virtuală
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/Tratamente_faciale" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Tratamente Faciale
+                <Link href="/servicii/plasma-pen" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  PlasmaPen
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicii/hyaluronpen" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  HyaluronPen
                 </Link>
               </li>
               <li>
                 <Link href="/servicii/Lipoliza_non_injectabila" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Lipoliză Non-injectabilă
+                  Lipoliză non-injectabilă
                 </Link>
               </li>
               <li>
-                <Link href="/servicii/Mezoterapie_virtuala" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Mezoterapie Virtuală
+                <Link href="/servicii/Tratamente_faciale" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  Tratamente cosmetice
+                </Link>
+              </li>
+
+              <li className="mt-1 px-4 pt-2 pb-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#b87333]">
+                Dermopigmentare
+              </li>
+              <li>
+                <Link href="/servicii/Micropigmentare/sprancene" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  Sprâncene
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicii/Micropigmentare/Buze" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  Buze
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicii/Micropigmentare/Eyeliner" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
+                  Eyeliner
                 </Link>
               </li>
               <li>
                 <Link href="/servicii/indepartare_chimica" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Îndepărtare Chimică
-                </Link>
-              </li>
-              <li>
-                <Link href="/servicii/tricopigmentare" className="block px-4 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]" onClick={() => setIsServicesOpen(false)}>
-                  Tricopigmentare
+                  Îndepărtare chimică
                 </Link>
               </li>
             </ul>
@@ -277,21 +298,64 @@ export default function Header() {
               <ul
                 id="mobile-services-submenu"
                 className={`overflow-hidden pl-3 transition-all duration-200 ${
-                  isMobileServicesOpen ? 'max-h-[36rem] py-1' : 'max-h-0'
+                  isMobileServicesOpen ? 'max-h-[52rem] py-1' : 'max-h-0'
                 }`}
               >
+                <li className="px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#b87333]">
+                  Scalp & Tricologie
+                </li>
                 {[
-                  { href: '/servicii/hyaluronpen', label: 'Hyaluron Pen' },
-                  { href: '/servicii/consult_scalp', label: 'Consult cu tricocamera' },
-                  { href: '/servicii/tratamente_scalp', label: 'Tratamente Scalp' },
-                  { href: '/servicii/plasma-pen', label: 'Plasma Pen' },
-                  { href: '/servicii/Microneedling', label: 'Microneedling' },
-                  { href: '/servicii/Micropigmentare', label: 'Micropigmentare' },
-                  { href: '/servicii/Tratamente_faciale', label: 'Tratamente Faciale' },
-                  { href: '/servicii/Lipoliza_non_injectabila', label: 'Lipoliză Non-injectabilă' },
-                  { href: '/servicii/Mezoterapie_virtuala', label: 'Mezoterapie Virtuală' },
-                  { href: '/servicii/indepartare_chimica', label: 'Îndepărtare Chimică' },
+                  { href: '/servicii/consult_scalp', label: 'Consult cu Tricocamera' },
+                  { href: '/servicii/tratamente_scalp', label: 'Tratamente pt Scalp' },
                   { href: '/servicii/tricopigmentare', label: 'Tricopigmentare' },
+                ].map(({ href, label }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="block rounded-md px-3 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]"
+                      onClick={() => {
+                        setIsMobileMenuOpen(false);
+                        setIsMobileServicesOpen(false);
+                      }}
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+
+                <li className="mt-1 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#b87333]">
+                  Estetica
+                </li>
+                {[
+                  { href: '/servicii/Microneedling', label: 'Microneedling' },
+                  { href: '/servicii/Mezoterapie_virtuala', label: 'Mezoterapie virtuală' },
+                  { href: '/servicii/plasma-pen', label: 'PlasmaPen' },
+                  { href: '/servicii/hyaluronpen', label: 'HyaluronPen' },
+                  { href: '/servicii/Lipoliza_non_injectabila', label: 'Lipoliză non-injectabilă' },
+                  { href: '/servicii/Tratamente_faciale', label: 'Tratamente cosmetice' },
+                ].map(({ href, label }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="block rounded-md px-3 py-2 text-sm text-[#002147] hover:bg-[#f4eee8]"
+                      onClick={() => {
+                        setIsMobileMenuOpen(false);
+                        setIsMobileServicesOpen(false);
+                      }}
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+
+                <li className="mt-1 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#b87333]">
+                  Dermopigmentare
+                </li>
+                {[
+                  { href: '/servicii/Micropigmentare/sprancene', label: 'Sprâncene' },
+                  { href: '/servicii/Micropigmentare/Buze', label: 'Buze' },
+                  { href: '/servicii/Micropigmentare/Eyeliner', label: 'Eyeliner' },
+                  { href: '/servicii/indepartare_chimica', label: 'Îndepărtare chimică' },
                 ].map(({ href, label }) => (
                   <li key={href}>
                     <Link
