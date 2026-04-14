@@ -68,7 +68,7 @@ export default function ContactSection() {
         {/* Programeaza-te Button */}
         <div className="flex justify-center mt-10">
           <a
-            href="https://stailer.ro/widget/mast-beauty/rnoazqdq"
+            href="https://mero.ro/p/mast-beauty-salon"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-[#b87333] text-white font-medium rounded-lg hover:bg-[#d4a574] transition-colors uppercase tracking-wider shadow-lg hover:shadow-xl"
